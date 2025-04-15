@@ -22,3 +22,14 @@ print("[26, 50]", contador_26_50)
 print("[51, 75]", contador_51_75)
 print("[76, 100]", contador_76_100)
 
+idade = input("Qual sua idade? ")
+if idade > 18:
+    print("Maior de idade")
+
+
+contador = 5
+while contador > 0:
+  print(contador, end=" ")
+  contador -= 1
+
+  
